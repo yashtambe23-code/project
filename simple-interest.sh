@@ -1,1 +1,1 @@
-#!/bin/bash echo "Enter Principal Amount:" read p echo "Enter Rate of Interest:" read r echo "Enter Time Period:" read t si=$((p * r * t / 100)) echo "Simple Interest = $si"
+#!/bin/bash echo "Enter Principal Amount:" read principal echo "Enter Rate of Interest:" read rate echo "Enter Time Period:" read time simple_interest=$((principal * rate * time / 100)) echo "Simple Interest = $simple_interest"
